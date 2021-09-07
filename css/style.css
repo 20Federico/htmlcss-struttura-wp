@@ -6,7 +6,7 @@
 
 /* tag */
 
-body{
+header, main, footer{
     width: 50%;
     margin: auto;
 }
@@ -24,18 +24,6 @@ footer{
     margin-bottom: 20px;
 }
 
-aside{
-    width: 25%;
-    background-color: skyblue;
-    height: 100%;
-}
-
-section{
-    background-color: skyblue;
-    width: calc(50% - 20px);
-    height: 100%;
-    margin: 0 10px;
-}
 
 /* classi */
 
@@ -45,28 +33,39 @@ section{
     clear: both;
 }
 
-.box_1{
+.hero_section{
     height: 300px;
     background-color: goldenrod;
     margin: 15px 0;
 }
 
 .box_2{
-    height: 400px;
     background-color: royalblue;
+    padding-bottom: 10px;
 }
 
 .box_2_header{
-    height: 12.5%;
+    height: 50px;
     background-color: skyblue;
+    margin-bottom: 10px;
 }
 
-.container{
+.row{
     width: 100%;
-    height: 87.5%;
-    padding: 10px 0;
+    height: 300px;
 }
 
-.float_left{
+.column{
     float: left;
+    background-color: skyblue;
+    height: 300px;
+}
+
+.short.column{
+    width: 25%;
+}
+
+.long.column{
+    width: calc(50% - 20px);
+    margin: 0 10px;
 }
